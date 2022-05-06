@@ -130,6 +130,18 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 831912520116227698, guid: 855f6474e827f49579e83afd4aeeb98c, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 41.921215
+      objectReference: {fileID: 0}
+    - target: {fileID: 831912520116227698, guid: 855f6474e827f49579e83afd4aeeb98c, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.22
+      objectReference: {fileID: 0}
+    - target: {fileID: 831912520116227698, guid: 855f6474e827f49579e83afd4aeeb98c, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -12.74
+      objectReference: {fileID: 0}
     - target: {fileID: 1430552624209027944, guid: 855f6474e827f49579e83afd4aeeb98c, type: 3}
       propertyPath: m_Name
       value: Level
@@ -177,6 +189,18 @@ PrefabInstance:
     - target: {fileID: 2405703523250341010, guid: 855f6474e827f49579e83afd4aeeb98c, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4606069636119854453, guid: 855f6474e827f49579e83afd4aeeb98c, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 26.947037
+      objectReference: {fileID: 0}
+    - target: {fileID: 4606069636119854453, guid: 855f6474e827f49579e83afd4aeeb98c, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 20.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 4606069636119854453, guid: 855f6474e827f49579e83afd4aeeb98c, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.03
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 855f6474e827f49579e83afd4aeeb98c, type: 3}
@@ -233,7 +257,7 @@ Camera:
   far clip plane: 1000
   field of view: 60
   orthographic: 1
-  orthographic size: 5
+  orthographic size: 12.657499
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
@@ -292,7 +316,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1750944067}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 1.79, y: -0.05, z: 0.18915498}
+  m_LocalPosition: {x: 1.79, y: 0.61, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -359,14 +383,14 @@ Rigidbody2D:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1750944067}
-  m_BodyType: 0
+  m_BodyType: 1
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
-  m_Mass: 1
+  m_Mass: 10
   m_LinearDrag: 0
   m_AngularDrag: 0.05
-  m_GravityScale: 1
+  m_GravityScale: 3.08
   m_Material: {fileID: 0}
   m_Interpolate: 0
   m_SleepingMode: 1
@@ -400,3 +424,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 863f9112f1dfb68499ba48dc595bf5bb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  speed: 1
