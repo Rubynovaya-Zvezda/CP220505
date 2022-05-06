@@ -14,4 +14,3 @@ public class PlayerMovement : MonoBehaviour
         
     }
 }
-//sho kavo i kto kyda
